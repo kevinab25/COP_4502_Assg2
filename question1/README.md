@@ -9,7 +9,7 @@
     ```java Main```
 
 # Interpreting Output
-After the program is done running, a new file named "primes.txt" should be produced in the same directory as the program. The text file will contain the output as following
+After the program has begun, there will be some prints to the console that the user can see and check how and which guest is getting the cupcakes.
 
 ```There will be a series of print commands indicating weather a guest ate a cupcake or not and then once they all have eaten the cupcake they will notify the Minatour. ```
 ``` ```
@@ -26,4 +26,5 @@ NOTE: only the leader will keep count and notify once they have all had a cupcak
 which is when the Minatour will have people stop going in.
 
 Did not have time to check the runtime but i did test with values of 5, 10, 20, and 50 as it was not specified
+However it can be notable that for large inputs, this algorithm might take long as it is randomized which guest will go in and it can result in many guests waiting on the leader to order a new cupcake.
 For input: In Main please change numGuests  or simply uncomment the scanner for user input.
