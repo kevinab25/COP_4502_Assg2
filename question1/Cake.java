@@ -1,6 +1,5 @@
 import java.util.Random;
 
-import question02.Guest;
 
 public class Cake {
 

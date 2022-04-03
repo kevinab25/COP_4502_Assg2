@@ -1,8 +1,6 @@
-import java.nio.channels.SelectableChannel;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
-import org.xml.sax.DocumentHandler;
 
 
 public class Guest implements Runnable {

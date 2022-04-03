@@ -7,7 +7,9 @@ public class Main {
         Scanner scan = new Scanner(System.in);
         System.out.print("Enter the number of guests : ");
         int numGuests = scan.nextInt();
-        scan.close();
+		// int numGuests = 5;
+
+		scan.close();
         System.out.println("The number entered by user: " + numGuests);
         
 		Thread guestThreads[] = new Thread[numGuests];
